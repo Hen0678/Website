@@ -25,3 +25,15 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.Container {
+    margin-top: 10%;
+}
+
+.Container img {
+    height: 300px;
+}
+
+.Container h2 {
+    margin-top: 3%;
+}
