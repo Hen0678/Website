@@ -37,3 +37,11 @@ section {
 .Container h2 {
     margin-top: 3%;
 }
+
+/* TBC if footer will be used
+footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+} */
+ 
