@@ -17,3 +17,11 @@ header nav ul li {
     padding-left: 10%;
 }
 
+section {
+    /*vh sizes elements relative to the height of the browser window */
+    height: 100vh;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
