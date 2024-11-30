@@ -10,11 +10,18 @@ header {
 
 header nav ul {
     display: flex;
-    margin-left: 80%;
+    margin-left: 70%;
+    /* Removed bullet points */
+    list-style: none;
 }
 
 header nav ul li {
     padding-left: 10%;
+}
+
+header a {
+    text-decoration: underline;
+    color: brown;
 }
 
 section {
@@ -32,10 +39,23 @@ section {
 
 .Container img {
     height: 300px;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .Container h2 {
-    margin-top: 3%;
+    margin-top: 2%;
+    /* 3em means 3 times the current font size. */
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Container p ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
 }
 
 /* TBC if footer will be used
@@ -43,5 +63,6 @@ footer {
     line-height: 40px;
     display: flex;
     justify-content: center;
+    font-size: 1rem;
 } */
  
